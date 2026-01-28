@@ -1,0 +1,33 @@
+{
+    "folders": [
+        {
+            "name": "Django Attendance Project",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "rest-book.environmentVariables": {
+            "$shared": {
+                "baseUrl": "http://localhost:8000"
+            }
+        },
+        "rest-book.defaultHeaders": {
+            "Content-Type": "application/json"
+        },
+        "python.defaultInterpreterPath": "./venv/bin/python",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true,
+        "python.formatting.provider": "black",
+        "files.associations": {
+            "*.restbook": "rest-book"
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "tanhakabir.rest-book",
+            "ms-python.python",
+            "ms-python.black-formatter",
+            "ms-python.pylint"
+        ]
+    }
+} 
